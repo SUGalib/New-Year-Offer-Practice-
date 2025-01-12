@@ -1,2 +1,78 @@
+/* family font import links starts here */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 /* font-family: "Merriweather", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* font-family: "Inter", serif; */
+/* family font import links ends here */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* banner parts starts here */
+.banner {
+    margin: 50px 140px 120px 140px;
+}
+
+.banner-container {
+    background-image: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../images/Banner\ Image.png);
+    height: 600px;
+    max-width: 1320px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    border: none;
+}
+
+.banner-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 177px 344px;
+    color: white;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.ny-uptitle {
+    margin-bottom: 16px;
+    font-size: 25px;
+}
+
+.ny-title {
+    font-size: 57px;
+    line-height: 95px;
+}
+
+/* banner parts ends here */
+
+/* discount-offers section starts here */
+
+.discount-offers{
+    margin: 0 398.1px 120px 399px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Inter", serif;
+    justify-content: center;
+}
+
+.discout-percentage{
+    font-size: 70px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+.holiday-deals{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.category-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 48px;
+}
+/* discount-offers section ends here */
